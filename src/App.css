@@ -9,7 +9,43 @@
   color: white;
   padding: 20px;
 }
+.colorDisplay {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
+.rgbText {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.sliderGroup {
+  margin: 10px 0;
+}
+
+.colorSlider {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.answerButtons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resultsSection {
+  padding: 10px;
+}
+
+.resultText {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
 .summarizerCard {
   display: flex;
   flex-direction: row;
